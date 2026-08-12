@@ -1,0 +1,35 @@
+{
+  "name": "genpark-multi-agent-creative-asset-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Multi-agent creative studio for copy, image asset & marketing campaign asset generation.",
+  "author": "genpark",
+  "category": "content",
+  "tags": [
+    "creative-agent",
+    "asset-generator",
+    "marketing-campaign",
+    "multi-agent-studio",
+    "ph-august12"
+  ],
+  "inputs": {
+    "campaign_brief": {
+      "type": "string"
+    },
+    "target_channels": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "generated_copy_variants": {
+      "type": "array"
+    },
+    "image_prompts": {
+      "type": "array"
+    },
+    "campaign_status": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
